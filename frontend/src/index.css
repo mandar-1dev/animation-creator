@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: local('JetBrains Mono');
+}
+
+body {
+  background: radial-gradient(circle at 20% 20%, #12192b 0%, #0a0e17 60%);
+  color: #e2e8f0;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-thumb { background: #1f2a3d; border-radius: 4px; }
